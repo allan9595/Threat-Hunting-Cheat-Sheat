@@ -56,4 +56,5 @@ https://markdownlivepreview.com/
 ## Hunting WMI
 1. [https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html](https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html)
 
-
+## Hunting Scheduled Tasks
+1. Looking for Event ID 4698, 106, 200, 201
