@@ -37,4 +37,19 @@ https://markdownlivepreview.com/
 8. 10 RemoteInteractive A user logged onto computer using Terminal Services or RDP.
 9. 11 CachedInteractive A user logged onto computer using network credentials which were stored locally on the computer.
 
+## Hunting PTH
+1. Looking for Event ID 4624 and Logon Type 3, and Logon Process to be NtLmSsP as well key length to be 0
+
+## Hunting RDP
+1. Looking for Event ID 4624 and 4778, Logon Type 3
+
+## Hunting Passwd Attack
+1. Looking for Event ID 4625, Logon Type 3
+
+## Hunting PsEXEC
+1. Looking for "\\" and prefix "-accepteula"
+
+## Hunting WMI
+1. [https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html](https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html)
+
 
