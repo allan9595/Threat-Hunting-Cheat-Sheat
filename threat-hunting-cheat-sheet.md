@@ -48,6 +48,10 @@ https://markdownlivepreview.com/
 
 ## Hunting PsEXEC
 1. Looking for "\\" and prefix "-accepteula"
+2. 5145 (captures requests to shares, we are interested in ADMIN$ and IPC$)
+3. 5140 (share successfully accessed)
+4. 4697 / 7045 (service creation)
+5. 4688 / Sysmon EID 1
 
 ## Hunting WMI
 1. [https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html](https://www.fireeye.com/blog/threat-research/2016/08/wmi_vs_wmi_monitor.html)
