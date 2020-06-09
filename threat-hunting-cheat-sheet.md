@@ -3,6 +3,12 @@
 2. Get-InjectedThread
 3. Nork-Nork.exe
 
+## Hunting Responder
+1. [CredDenfense (Responder Guard)](blackhillsinfosec.com/the-creddefense-toolkit/)
+2. Powershell Script Block Logging (Event ID 4104)
+3. Sysmon Event ID 3
+4. Honey Credentials (Event ID 4648)
+
 https://www.markdownguide.org/cheat-sheet/
 https://markdownlivepreview.com/
 
@@ -62,9 +68,17 @@ https://markdownlivepreview.com/
 ## Hunting Network Shares
 1. Looking for Event ID 4776, 5140, 5145
 
+## Hunting Windows Log Rotation & Clearing
+1. Looking for Event ID 1102, 104
+
 ## Other resources:
 1. [https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral-movement-windows-authentication-logs.md](https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral-movement-windows-authentication-logs.md)
 2. [https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral_movement_detection_via_process_monitoring.md](https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral_movement_detection_via_process_monitoring.md)
 3. [https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral-movement-via-explicit-credentials.md](https://github.com/ThreatHuntingProject/ThreatHunting/blob/master/hunts/lateral-movement-via-explicit-credentials.md)
 4. [https://jpcertcc.github.io/ToolAnalysisResultSheet/](https://jpcertcc.github.io/ToolAnalysisResultSheet/)
 5. [https://www.jpcert.or.jp/english/pub/sr/DetectingLateralMovementThroughTrackingEventLogs_version2.pdf](https://www.jpcert.or.jp/english/pub/sr/DetectingLateralMovementThroughTrackingEventLogs_version2.pdf)
+
+## Tools
+1. [sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
+   [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
+
