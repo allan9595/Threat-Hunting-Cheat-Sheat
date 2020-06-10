@@ -82,3 +82,24 @@ https://markdownlivepreview.com/
 1. [sysmon](https://docs.microsoft.com/en-us/sysinternals/downloads/sysmon)
    [sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
 
+## LOLBAS
+1. [https://lolbas-project.github.io/](https://lolbas-project.github.io/)
+2. Looking for hashes
+3. Looking for process description
+4. [https://car.mitre.org/analytics/CAR-2013-04-002/](https://car.mitre.org/analytics/CAR-2013-04-002/)
+
+## Powershell Logging (Script Block Logging)
+1. Event ID (4104,4105,4106)
+2. [https://github.com/Neo23x0/sigma/tree/master/rules/windows/powershell](https://github.com/Neo23x0/sigma/tree/master/rules/windows/powershell)
+3. [https://github.com/danielbohannon/Invoke-Obfuscation](https://github.com/danielbohannon/Invoke-Obfuscation)
+4. [https://github.com/Ben0xA/nps](https://github.com/Ben0xA/nps)
+5. Looking for Event ID 400, 500
+6. [https://github.com/GhostPack](https://github.com/GhostPack)
+
+## Hunting .NET
+1. ETW
+2. [https://github.com/fireeye/SilkETW](https://github.com/fireeye/SilkETW)
+3. [https://github.com/byt3bl33d3r/SILENTTRINITY]
+4. Get-WinEvent -FilterHashtable @{logname="Microsoft-WindowsSysmon/Operational"; id=1} | Where-Object {$_.Properties[10].Value -like "*Windows_Reporting.exe*"} | fl
+5. [https://github.com/fireeye/SilkETW](https://github.com/fireeye/SilkETW)
+
