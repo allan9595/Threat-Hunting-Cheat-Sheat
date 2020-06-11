@@ -102,4 +102,10 @@ https://markdownlivepreview.com/
 3. [https://github.com/byt3bl33d3r/SILENTTRINITY]
 4. Get-WinEvent -FilterHashtable @{logname="Microsoft-WindowsSysmon/Operational"; id=1} | Where-Object {$_.Properties[10].Value -like "*Windows_Reporting.exe*"} | fl
 5. [https://github.com/fireeye/SilkETW](https://github.com/fireeye/SilkETW)
+6. [https://github.com/endgameinc/ClrGuard](https://github.com/endgameinc/ClrGuard)
+7. [https://zhuanlan.zhihu.com/p/38601278](https://zhuanlan.zhihu.com/p/38601278)
+8. [https://pen-testing.sans.org/resources/papers/gpen/preventing-living-land-attacks-140526](https://pen-testing.sans.org/resources/papers/gpen/preventing-living-land-attacks-140526)
 
+## AMSI
+1. [https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)
+2. [https://blog.f-secure.com/hunting-for-amsi-bypasses/](https://blog.f-secure.com/hunting-for-amsi-bypasses/)
