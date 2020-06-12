@@ -109,3 +109,16 @@ https://markdownlivepreview.com/
 ## AMSI
 1. [https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell](https://github.com/S3cur3Th1sSh1t/Amsi-Bypass-Powershell)
 2. [https://blog.f-secure.com/hunting-for-amsi-bypasses/](https://blog.f-secure.com/hunting-for-amsi-bypasses/)
+3. [https://bohops.com/2018/06/28/abusing-com-registry-structure-clsid-localserver32-inprocserver32/](https://bohops.com/2018/06/28/abusing-com-registry-structure-clsid-localserver32-inprocserver32/)
+
+## Hunting WMI
+1. [https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_26.html](https://cyberwardog.blogspot.com/2017/03/chronicles-of-threat-hunter-hunting-for_26.html)
+2. Get-WinEvent -FilterHashtable @{logname="Microsoft-Windows-Sysmon/Operational"; id=1} | Where-Object {$_.Properties[20].Value -like "*wmi*"} | fl
+
+## Powershell
+1. [https://www.sans.org/reading-room/whitepapers/threathunting/hunting-gathering-powershell-38842](https://www.sans.org/reading-room/whitepapers/threathunting/hunting-gathering-powershell-38842)
+2. [https://github.com/Infocyte/PSHunt](https://github.com/Infocyte/PSHunt)
+3. [https://devblogs.microsoft.com/scripting/use-powershell-cmdlet-to-filter-event-log-for-easy-parsing/](https://devblogs.microsoft.com/scripting/use-powershell-cmdlet-to-filter-event-log-for-easy-parsing/)
+
+
+[https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1536354143.pdf](https://www.sans.org/cyber-security-summit/archives/file/summit-archive-1536354143.pdf)
